@@ -13,8 +13,11 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-https://links.awse.eu.org/NLLE
+vless://2f9fe94d-a9b2-4dd0-cf59-255145f8a4d2@nlle.980008.xyz:58124?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w&flow=xtls-rprx-vision&fp=chrome#荷兰NLHostSlim
+vless://99de9db0-4442-4dcb-c60f-db2a32eca802@nlle.980008.xyz:51801?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM&flow=xtls-rprx-vision&fp=chrome#荷兰NLHostSlim
+vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLojbflhbBOTDEiLAogICJhZGQiOiAibmxsZS45ODAwMDgueHl6IiwKICAicG9ydCI6IDM0MjQzLAogICJpZCI6ICJjMDEwMTM3Zi1kZTljLTRkNWMtOTdmYi03MjFiZjdkZmM5YjAiLAogICJhaWQiOiAwLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIiIsCiAgInRscyI6ICJ0bHMiCn0=
+vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLojbflhbBOTDIiLAogICJhZGQiOiAibmxsZS45ODAwMDgueHl6IiwKICAicG9ydCI6IDIyNTc0LAogICJpZCI6ICIyYmYzZDg3My02MjFhLTQ4NTQtOGJjYS1jYzU3YzRmZDE4ZDciLAogICJhaWQiOiAwLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIiIsCiAgInRscyI6ICJ0bHMiCn0=
+
 `;
 
 let urls = [];
