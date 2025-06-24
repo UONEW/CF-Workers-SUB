@@ -22,7 +22,7 @@ https://gist.githubusercontent.com/UONEW/f922f725a61d140bd49ba196a484e3e7/raw/mi
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subConfig = "https://raw.githubusercontent.com/UONEA/MyDocuments/refs/heads/main/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"; //订阅配置文件
+let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"; //订阅配置文件
 let subProtocol = 'https';
 
 export default {
