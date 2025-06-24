@@ -17,12 +17,12 @@ vless://2f9fe94d-a9b2-4dd0-cf59-255145f8a4d2@nlle.980008.xyz:58124?type=tcp&secu
 vless://99de9db0-4442-4dcb-c60f-db2a32eca802@nlle.980008.xyz:51801?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM&flow=xtls-rprx-vision&fp=chrome#荷兰NLHostSlim
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLojbflhbBOTDEiLAogICJhZGQiOiAibmxsZS45ODAwMDgueHl6IiwKICAicG9ydCI6IDM0MjQzLAogICJpZCI6ICJjMDEwMTM3Zi1kZTljLTRkNWMtOTdmYi03MjFiZjdkZmM5YjAiLAogICJhaWQiOiAwLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIiIsCiAgInRscyI6ICJ0bHMiCn0=
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLojbflhbBOTDIiLAogICJhZGQiOiAibmxsZS45ODAwMDgueHl6IiwKICAicG9ydCI6IDIyNTc0LAogICJpZCI6ICIyYmYzZDg3My02MjFhLTQ4NTQtOGJjYS1jYzU3YzRmZDE4ZDciLAogICJhaWQiOiAwLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIiIsCiAgInRscyI6ICJ0bHMiCn0=
-
+https://gist.githubusercontent.com/UONEW/f922f725a61d140bd49ba196a484e3e7/raw/mihomo.yaml
 `;
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subConfig = "https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"; //订阅配置文件
+let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"; //订阅配置文件
 let subProtocol = 'https';
 
 export default {
